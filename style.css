@@ -299,6 +299,8 @@ section h4 {
     background-image: url('./Flowers/banner2.png');
     margin: 0px 240px;
     /* justify-content: space-between; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .My-details {
