@@ -293,12 +293,11 @@ section h4 {
     flex-direction: column;
     align-items: center;
     /* border: 10px solid black; */
-    margin-bottom: 128px;
     padding: 100px;
     border-radius: 10px;
     /* background: #dc915b; */
     background-image: url('./Flowers/banner2.png');
-    margin: 130px 240px;
+    margin: 0px 240px;
     /* justify-content: space-between; */
 }
 
@@ -366,7 +365,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #111010;
-    /* margin-top: 128px; */
+    margin-top: 128px;
 }
 
 .footer-des {
