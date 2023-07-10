@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header-container {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0px 240px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header-title {
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 30px;
+}
+
+.header-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
+    /* margin-bottom: 147px; */
+}
+
+/* section handle */
+.section-1 {
+    margin-left: 240px;
+    margin-right: 240px;
+    /* margin-bottom: 128px; */
+    align-items: center;
+    /* background-color: chartreuse; */
+    padding-bottom: 128px;
+}
+
+/* section-title-description */
+.section-title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* section title */
+.section-title {
+    padding-top: 178px;
+    padding-bottom: 24px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+/* section description */
+.section-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+/* section picture container style */
+.section-picture-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.picture1 {
+    border-image: auto;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 110px 78px 0px 76px;
+}
+
+.picture2 {
+    border-image: auto;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 117px 47px 51px 47px;
+
+}
+
+.picture3 {
+    border-image: auto;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 67px 75px 0px 75px;
+
+}
+
+section h3 {
+    text-align: center;
+    padding-top: 32px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* section icon and icon details */
+.section-icon-container {
+    display: flex;
+    margin: 128px 0px 128px 0px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 87px;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+section h4 {
+    padding-top: 24px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* hot sell style */
+.hot-sell-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-left: -240px;
+    margin-right: -240px;
+    margin-bottom: 128px;
+    align-items: center;
+    justify-content: center;
+    gap: 186px;
+    padding: 100px 0px;
+}
+
+/* for hot sell button */
+.btn-primary {
+    /* display: inline-flex; */
+    padding: 20px 43px;
+    /* align-items: center; */
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.hot-sell-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* hot sell off color */
+.off {
+    color: #E55473;
+}
+
+.all-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-picture {
+    display: flex;
+    gap: 24px;
+}
+
+.instagram-title-description {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 24PX;
+}
+
+.Instagram-description {
+    padding-bottom: 48px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
