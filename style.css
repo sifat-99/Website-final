@@ -346,6 +346,13 @@ section h4 {
     color: #a30ad6;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding-top: 80px;
+}
 
 /* adding footer style */
 footer span {
