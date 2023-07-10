@@ -11,7 +11,7 @@ main {
 /* this is for header section container */
 .header-container {
     display: flex;
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(207, 68, 99, 0.1);
     padding: 50px 240px 0px 240px;
     align-items: center;
     justify-content: space-between;
@@ -76,14 +76,19 @@ main {
 
 }
 
-/* section description */
-.section-description {
+
+.section-ddes {
+    display: flex;
     width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    text-align: center;
     padding-bottom: 48px;
 }
 
@@ -106,7 +111,7 @@ main {
 
 .picture2 {
     border-image: auto;
-    background: rgba(167, 33, 98, 0.15);
+    background: #0597A026;
     border-radius: 300px 300px 0px 0px;
     padding: 117px 47px 51px 47px;
 
@@ -114,7 +119,7 @@ main {
 
 .picture3 {
     border-image: auto;
-    background: rgba(167, 33, 98, 0.15);
+    background: #477D1126;
     border-radius: 300px 300px 0px 0px;
     padding: 67px 75px 0px 75px;
 
@@ -310,7 +315,7 @@ section h4 {
     padding-left: 270px;
 }
 
-.section-description {
+.section-descriptio {
     display: flex;
     color: #e9700d;
     text-align: center;
@@ -318,14 +323,14 @@ section h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding-left: 270px;
+    padding-left: 340px;
     /* justify-content: center; */
 }
 
 .about-info-container {
     display: flex;
     justify-content: space-between;
-    padding-left: 270px;
+    padding-left: 340px;
     gap: 100px;
 }
 
