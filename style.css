@@ -8,7 +8,7 @@ main {
     width: 100%;
 }
 
-
+/* this is for header section container */
 .header-container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -19,6 +19,7 @@ main {
 
 }
 
+/* style for header title */
 .header-title {
     font-size: 80px;
     font-weight: 800;
@@ -26,6 +27,7 @@ main {
     margin-bottom: 30px;
 }
 
+/* for header description */
 .header-des {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -35,6 +37,7 @@ main {
     margin-bottom: 30px;
 }
 
+/* header button */
 .btn {
     padding: 20px 43px;
     gap: 10px;
@@ -92,6 +95,7 @@ main {
     justify-content: center;
 }
 
+/* added picture and tuning with css */
 .picture1 {
     border-image: auto;
     background: rgba(167, 33, 98, 0.15);
@@ -172,6 +176,7 @@ section h4 {
 
 }
 
+/* hot sell data sections flex */
 .hot-sell-data {
     display: flex;
     flex-direction: column;
@@ -195,6 +200,7 @@ section h4 {
     gap: 24px;
 }
 
+/* this is used for instagram title style */
 .instagram-title-description {
     color: #272727;
     text-align: center;
@@ -218,6 +224,7 @@ section h4 {
     line-height: 30px;
 }
 
+/* this container contains the hot deal style */
 .latest-deals-container {
     margin-top: 128px;
     color: #272727;
@@ -246,6 +253,7 @@ section h4 {
     padding-bottom: 16px;
 }
 
+/* input box and button style */
 .input-box-button {
     display: flex;
     align-items: center;
@@ -270,4 +278,55 @@ section h4 {
     background: #E55473;
     border: none;
     padding: 16px;
+}
+
+/* adding footer style */
+footer span {
+    color: #E55473;
+
+}
+
+footer h2 {
+    padding-top: 128px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer {
+    /* padding-top: 128px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010;
+    /* margin-top: 128px; */
+}
+
+.footer-des {
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+footer h6 {
+
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 128px;
+    padding-top: 32px;
 }
