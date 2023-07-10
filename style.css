@@ -297,6 +297,8 @@ section h4 {
     background: url('./Flowers/banner2.png');
     background-size: cover;
     margin: 0px 240px;
+    width: 60%;
+    height: 120%;
 
     background-repeat: no-repeat;
     background-position: center;
