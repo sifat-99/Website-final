@@ -101,6 +101,7 @@ main {
     background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 110px 78px 0px 76px;
+
 }
 
 .picture2 {
@@ -233,7 +234,7 @@ section h4 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    background: url('./Flowers/Rectangle9.png');
+    background-image: url('./Flowers/Rectangle9.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -269,6 +270,7 @@ section h4 {
     border-radius: 8px;
     background: #FFF;
     padding: 0px 16px;
+    font-size: 16px;
 }
 
 .btn-deals {
