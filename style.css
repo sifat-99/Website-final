@@ -45,6 +45,7 @@ main {
     background: #E55473;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
     /* margin-bottom: 147px; */
 }
 
@@ -179,6 +180,7 @@ section h4 {
     background: #E55473;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -285,7 +287,9 @@ section h4 {
     padding: 16px;
     color: #FFFFFF;
     font-size: 20px;
+    cursor: pointer;
 }
+
 
 /* bonus-section */
 .bonus-section {
