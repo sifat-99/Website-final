@@ -77,6 +77,7 @@ main {
 
 }
 
+/* Section Details-- (section ddes) means section-description */
 
 .section-ddes {
     display: flex;
@@ -126,6 +127,8 @@ main {
 
 }
 
+/* All h3 lines inside the section */
+
 section h3 {
     text-align: center;
     padding-top: 32px;
@@ -148,6 +151,8 @@ section h3 {
     gap: 100px;
     text-align: center;
 }
+
+/* all h4 line inside the section */
 
 section h4 {
     padding-top: 24px;
@@ -269,6 +274,7 @@ section h4 {
     padding-bottom: 122px;
 }
 
+/* input bos style apply */
 .input-box {
     width: 700px;
     height: 64px;
@@ -278,6 +284,7 @@ section h4 {
     font-size: 16px;
 }
 
+/* the button besides of input field */
 .btn-deals {
     width: 150px;
     height: 64px;
@@ -301,13 +308,14 @@ section h4 {
     background: url('./Flowers/banner2.png');
     background-size: cover;
     margin: 0px 240px;
-    width: 60%;
+    width: 63%;
     height: 120%;
 
     background-repeat: no-repeat;
     background-position: center;
 }
 
+/* My details headline */
 .My-details {
     color: #272727;
     text-align: center;
@@ -321,6 +329,7 @@ section h4 {
     padding-left: 270px;
 }
 
+/* My details description details */
 .section-descriptio {
     display: flex;
     color: #e9700d;
@@ -346,10 +355,12 @@ section h4 {
 
 }
 
+/* used for color a letter of a word or color a word of a sentence... i used span tag for this.. for this i give a class named F and color them */
 .F {
     color: #a30ad6;
 }
 
+/* all social media icons also linked with ancor tag for direct go to the link */
 .icon {
     display: flex;
     align-items: center;
@@ -364,6 +375,7 @@ footer span {
 
 }
 
+/* All h2 lines inside the footer section */
 footer h2 {
     padding-top: 128px;
     color: #FFFFFF;
@@ -373,6 +385,7 @@ footer h2 {
     line-height: normal;
 }
 
+/* footer section controller */
 footer {
     /* padding-top: 128px; */
     display: flex;
@@ -383,6 +396,7 @@ footer {
     margin-top: 128px;
 }
 
+/* Footer Description */
 .footer-des {
     display: flex;
     width: 625px;
@@ -397,6 +411,7 @@ footer {
     padding-top: 24px;
 }
 
+/* All h6 liner inside footer section */
 footer h6 {
 
     color: rgba(255, 255, 255, 0.40);
